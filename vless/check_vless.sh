@@ -77,7 +77,7 @@ deploy_vless() {
     # 安装依赖
     npm install
     # 启动vless项目
-    ~/.npm-global/bin/pm2 start ~/domains/$USER.serv00.net/vless/app.js --name vless
+    ~/.npm-global/bin/pm2 start ~/domains/trip.serv00.net/vless/app.js --name vless
     # 保存pm2进程状态
     ~/.npm-global/bin/pm2 save
     # ANSI颜色码
